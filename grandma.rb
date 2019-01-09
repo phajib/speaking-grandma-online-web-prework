@@ -15,16 +15,15 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     phrase =  "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == "Hi Nana, how are you?"
-    if phrase == phrase.upcase
-      phrase = "NO, NOT SINCE 1938!"
+  #  phrase == phrase.upcase
+    phrase = "NO, NOT SINCE 1938!"
   #else
   #  phrase = "HUH?! SPEAK UP, SONNY!"
-      elsif phrase == "Hi!"
-        phrase = "HUH?! SPEAK UP, SONNY!"
-      elsif phrase == "WHAT DID YOU EAT TODAY?"
-        phrase = "NO, NOT SINCE 1938!"
-      elsif phrase == "WHAT?"
-        phrase = "NO, NOT SINCE 1938!"
-      end
-    end
+  elsif phrase == "Hi!"
+    phrase = "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "WHAT DID YOU EAT TODAY?"
+    phrase = "NO, NOT SINCE 1938!"
+  elsif phrase == "WHAT?"
+    phrase = "NO, NOT SINCE 1938!"
+  end
 end
